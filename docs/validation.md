@@ -11,7 +11,9 @@ Recorded on 20 October 2026. These are synthetic functional checks, not a UAV lo
 
 ## Automated checks
 
-Build and `ctest --test-dir build --output-on-failure` passed. CTest runs the functional test executable, generates demo fixtures, runs the batch entry point, and cleans up those fixtures. All four stages passed.
+Build and `ctest --test-dir build --output-on-failure` passed. CTest runs the functional test executable, generates demo fixtures, runs the batch entry point, cleans up those fixtures, and checks the visual demo. All five stages passed.
+
+The visual demo check executes the C++ matcher, verifies both matches and both abstentions, checks accepted positions against synthetic truth, confirms that the report and prediction images exist, and verifies that rerunning into an existing folder fails safely. The report's four tabs were also opened and checked in a browser.
 
 The functional executable passed **23 assertions**, covering:
 

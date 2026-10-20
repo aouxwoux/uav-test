@@ -11,5 +11,5 @@ COPY include ./include
 COPY src ./src
 COPY tools ./tools
 RUN cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF \
-    && cmake --build build --target uav_localizer -j2
+    && cmake --build build --target uav_localizer run_demo -j2
 ENTRYPOINT ["/opt/uavloc/build/uav_localizer"]
