@@ -29,9 +29,9 @@ the report comes from the actual c++ run. it doesn't need a server or internet.
 
 ## video
 
-[![watch the demo](docs/demo-poster.png)](docs/demo.mp4)
+https://github.com/user-attachments/assets/2bf7b374-c319-47df-90ae-bdccae0736c2
 
-[watch / download the demo video](docs/demo.mp4)
+[download the video](docs/demo.mp4)
 
 ## how i'd explain it
 
