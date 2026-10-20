@@ -1,6 +1,7 @@
 # uav visual localizer
 
 trying to find where a drone image belongs on a stored map when gps isn't available. built with c++17 and opencv. runs offline.
+we narrow the search using the approximate location, match visual features, then verify the geometry. enough consistent matches give us the image centre on the map. otherwise we return no match. the point is to avoid giving a confident wrong location.
 
 ## the idea
 
@@ -33,9 +34,8 @@ https://github.com/user-attachments/assets/2bf7b374-c319-47df-90ae-bdccae0736c2
 
 [download the video](docs/demo.mp4)
 
-## how i'd explain it
 
-"we narrow the search using the approximate location, match visual features, then verify the geometry. enough consistent matches give us the image centre on the map. otherwise we return no match. the point is to avoid giving a confident wrong location."
+
 
 ## where it's at
 
