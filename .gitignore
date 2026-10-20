@@ -1,0 +1,9 @@
+/build*/
+/demo/
+/data/
+/results/
+*.csv.tmp
+*.log
+.DS_Store
+.vscode/
+.idea/

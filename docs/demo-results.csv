@@ -1,0 +1,5 @@
+name,status,latitude,longitude,confidence,reason,inliers,inlier_ratio,reprojection_error_px,processing_ms,tile,branch
+day.png,matched,12.00550390,77.00444680,0.72300777,verified,446,0.96536797,1.15635749,1127.46126300,map.png,gradient
+thermal_proxy.png,matched,12.00550299,77.00444702,0.70006529,verified,362,0.94516971,1.20076360,866.64241100,map.png,gradient
+blank.png,no_match,,,0.00000000,insufficient_texture,0,0.00000000,,20.07029200,,
+unrelated.png,no_match,,,0.00000000,no_verified_match,0,0.00000000,,1008.24647000,,

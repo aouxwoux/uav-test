@@ -1,0 +1,5 @@
+name,expected_status,latitude,longitude
+day.png,matched,12.0055046833,77.0044467685
+thermal_proxy.png,matched,12.0055046833,77.0044467685
+blank.png,no_match,,
+unrelated.png,no_match,,
